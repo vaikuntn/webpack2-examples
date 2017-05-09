@@ -68,9 +68,31 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(1);
+
+const dress = () => {
+    document.write(" hello, Webpack check testing iwth es6 ");
+}
+
+dress();
+
+
+class Car {
+    manufacturer(car) {
+        document.write(`I have a ${car}`);
+    }
+}
+
+const bmw = new Car;
+bmw.manufacturer("BMW");
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-document.write(" hello, Webpack");
+throw new Error("Module parse failed: /Users/VaikuntN/webpack2-examples/styles.scss Unexpected token (3:5)\nYou may need an appropriate loader to handle this file type.\n| $variable: green;\n| \n| body {\n|     background: $variable;\n| }");
 
 /***/ })
 /******/ ]);
