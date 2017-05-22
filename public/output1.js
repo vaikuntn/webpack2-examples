@@ -63,14 +63,20 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(1);
+__webpack_require__(0);
 
 const dress = () => {
     document.write(" hello, Webpack check testing iwth es6 ");
@@ -87,12 +93,6 @@ class Car {
 
 const bmw = new Car;
 bmw.manufacturer("BMW");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-throw new Error("Module parse failed: /Users/VaikuntN/webpack2-examples/styles.scss Unexpected token (3:5)\nYou may need an appropriate loader to handle this file type.\n| $variable: green;\n| \n| body {\n|     background: $variable;\n| }");
 
 /***/ })
 /******/ ]);

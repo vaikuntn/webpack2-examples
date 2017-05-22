@@ -1,4 +1,4 @@
-require("./styles.scss");
+require("../styles/styles.scss");
 
 const dress = () => {
     document.write(" hello, Webpack check testing iwth es6 ");
